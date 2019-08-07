@@ -89,7 +89,8 @@ Widget buildMyProfilePicAndUrl(BuildContext context) {
                   style: TextStyle(
                       fontFamily: ('Lato'),
                       color: Colors.white,
-                      fontSize: 12.0,
+                      fontSize:
+                          ResponsiveLayout.isLargeScreen(context) ? 12.0 : 10.0,
                       fontWeight: FontWeight.bold),
                   softWrap: true,
                   textAlign: TextAlign.start,
@@ -123,7 +124,8 @@ Widget buildMyProfilePicAndUrl(BuildContext context) {
                 style: TextStyle(
                     fontFamily: ('Lato'),
                     color: Colors.black,
-                    fontSize: 14.0,
+                    fontSize:
+                        ResponsiveLayout.isLargeScreen(context) ? 14.0 : 11.0,
                     fontWeight: FontWeight.bold),
                 softWrap: true,
                 textAlign: TextAlign.start,
@@ -139,7 +141,8 @@ Widget buildMyProfilePicAndUrl(BuildContext context) {
                   style: TextStyle(
                       fontFamily: ('Lato'),
                       color: Colors.white,
-                      fontSize: 12.0,
+                      fontSize:
+                          ResponsiveLayout.isLargeScreen(context) ? 12.0 : 10.0,
                       fontWeight: FontWeight.bold),
                   softWrap: true,
                   textAlign: TextAlign.start,
@@ -166,7 +169,7 @@ class MyInfo extends StatelessWidget {
               letterSpacing: 5.0,
               fontFamily: ('Lato'),
               color: Colors.white,
-              fontSize: 16.0,
+              fontSize: ResponsiveLayout.isLargeScreen(context) ? 16.0 : 12.0,
               fontWeight: FontWeight.bold),
           softWrap: true,
           textAlign: TextAlign.start,
@@ -180,7 +183,7 @@ class MyInfo extends StatelessWidget {
               letterSpacing: 5.0,
               fontFamily: ('Lato'),
               color: Colors.white,
-              fontSize: 28.0,
+              fontSize: ResponsiveLayout.isLargeScreen(context) ? 28.0 : 20.0,
               fontWeight: FontWeight.bold),
           softWrap: true,
           textAlign: TextAlign.start,
@@ -193,7 +196,7 @@ class MyInfo extends StatelessWidget {
           style: TextStyle(
               fontFamily: ('Lato'),
               color: Colors.white,
-              fontSize: 18.0,
+              fontSize: ResponsiveLayout.isLargeScreen(context) ? 18.0 : 15.0,
               fontWeight: FontWeight.w100),
           softWrap: true,
           textAlign: TextAlign.start,
