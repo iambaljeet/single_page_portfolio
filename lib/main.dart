@@ -192,7 +192,7 @@ class MyInfo extends StatelessWidget {
           height: 20,
         ),
         Text(
-          'A Android Developer from Gurgaon, India.',
+          'An Android Developer from Gurgaon, India.',
           style: TextStyle(
               fontFamily: ('Lato'),
               color: Colors.white,
